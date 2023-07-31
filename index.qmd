@@ -1,0 +1,62 @@
+---
+title: "Creating slides with Quarto and Reveal.js"
+subtitle: "Adapted from <a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>Emil Hvitfeldt's 2023 NYR presentation</a>" 
+format:
+  revealjs: 
+    theme: [default, styles.scss]
+---
+
+## [Quarto]{.blue} Reveal.js Basics
+
+::: columns
+::: {.column width="50%"}
+#### Code:
+
+::: quarto
+`````md
+---
+title: "Basic Revealjs"
+format: revealjs
+editor: visual
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation.
+
+## Bullets
+
+When you click the **Render** button a document will be generated that includes:
+
+-   Content authored with markdown
+-   Output from executable code
+
+## Code
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{{r}}
+1 + 1
+```
+`````
+:::
+:::
+
+::: {.column width="50%"}
+#### Output:
+
+<iframe class="slide-deck" src="basics.html"></iframe>
+:::
+:::
+
+## Further reading
+
+::: small
+<a href='https://quarto.org/docs/presentations/'>🔗</a> Quarto - Presentations
+
+<a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>🔗</a> Emil Hvitfeldt's 2023 NYR presentation
+
+<a href='https://emitanaka.org/blog/2022-07-11-transitioning-from-xaringan-to-quarto-revealjs/transitioning-from-xaringan-to-quarto-revealjs.html'>🔗</a> Emi Tanaka's <em>Transitioning from xaringan to Quarto Reveal.js</em>
+
+<a href='https://meghan.rbind.io/blog/quarto-slides/'>🔗</a> Meghan Hall's <em>Making Slides in Quarto with Reveal.js</em>
+:::
