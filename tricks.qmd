@@ -1,0 +1,98 @@
+---
+title: "Reveal.js Tricks"
+format: revealjs
+---
+
+## Columns are easy!
+
+::: columns
+
+::: {.column width="50%"}
+First column
+
+Amazing!
+:::
+
+::: {.column width="50%"}
+Second column
+
+Wow!
+:::
+
+:::
+
+## Columns are easy! 
+
+::: columns
+
+::: {.column width="33%"}
+First column
+
+Amazing!
+:::
+
+::: {.column width="34%"}
+Second column
+
+Wow!
+:::
+
+::: {.column width="33%"}
+Third column?!
+
+Astounding!
+:::
+
+:::
+
+::: aside
+
+::: {.fragment}
+Just need to specify `{column width="x%"}` for each column
+:::
+
+:::
+
+## Absolute positioning
+
+![](images/cat1.jpeg){.absolute top=200 left=0 width="350"}
+
+![](images/cat2.jpeg){.absolute top=50 right=50 width="300"}
+
+![](images/cat3.jpeg){.absolute bottom=0 right="30%" width="400"}
+
+::: {.absolute top=300 right=20}
+Put images and text wherever you want!
+:::
+
+
+## Vertical centering {.center}
+
+Is normally super hard but now simple!
+
+::: {style="text-align: center;"}
+## Horizontal centering
+
+Is a little trickier
+:::
+
+
+## {.center}
+
+we can have
+[big text]{.r-fit-text}
+as big as the screen can fit!
+
+## Other fun things
+
+<br>
+
+::: small
+<a href='https://quarto.org/docs/presentations/revealjs/advanced.html'>🔗</a> Advanced Quarto Reveal.js:
+
+- Slide transitions
+- Animations
+- Fragments (incrementally reveal/highlight elements, including code)
+- Plugins
+- Much more!
+:::

@@ -2,11 +2,29 @@
 
 $theme-blue: #76AADB;
 $theme-dark-purple: #1A1626;
+$theme-golden: #f5b700;
+$theme-darkred: #841c26;
 
 
 /*-- scss:rules --*/
+
+// link colors
+
+a {text-decoration: underline; color: $theme-darkred;}
+a:link  {text-decoration: underline; color: $theme-darkred;}
+a:visited {text-decoration: underline; color: $theme-darkred;}
+a:hover {text-decoration: underline; color: $theme-darkred;}
+a:active {text-decoration: underline; color: $theme-darkred;}
+
+// colors
+.dark-purple {
+  color: $theme-dark-purple;
+}
 .blue {
   color: $theme-blue;
+}
+.golden {
+  color: $theme-golden;
 }
 
 .quarto {
@@ -23,4 +41,15 @@ $theme-dark-purple: #1A1626;
 
 .small {
   font-size: 16pt;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+
+.pull-right {
+  float: right;
+  text-align: right;
+  width: 47%;
 }

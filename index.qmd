@@ -1,16 +1,72 @@
 ---
-title: "Creating slides with Quarto and Reveal.js"
-subtitle: "Adapted from <a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>Emil Hvitfeldt's 2023 NYR presentation</a>" 
+pagetitle: "Creating slides with Quarto and Reveal.js"
+pagesubtitle: 
 format:
   revealjs: 
     theme: [default, styles.scss]
+    incremental: true
 ---
 
-## [Quarto]{.blue} Reveal.js Basics
+## Creating slides with Quarto and Reveal.js {background-image="./images/paint.jpeg"}
+
+Adapted from <a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>Emil Hvitfeldt's 2023 NYR presentation</a>
+
+::: small
+
+::: pull-right
+<br>
+<br>
+<br>
+<br>
+Will Simmons  
+4 August 2023  
+WCM Biostatistics Computing Club
+:::
+
+:::
+
+## What is [Quarto]{.blue}?
+
+<br>
+
+- Multi-language, next generation version of R Markdown from Posit (i.e., RStudio)  
+<br>
+- R Markdown isn't going away <a href='https://yihui.org/en/2022/04/quarto-r-markdown/'>(see this post)</a>  
+<br>
+- However, all new features will be implemented in Quarto  
+<br>
+- Render .Rmd as [.qmd]{.blue} without any changes - try it!  
+<br>
+
+## What is [Reveal.js]{.golden}?
+
+<br>
+
+- Open source HTML presentation framework
+<br>  
+- **Very** flexible - anything you can do with a webpage
+<br>  
+- Lucky for us, included in [Quarto]{.blue} as the preferred presentation format
+<br>  
+- Already <a href='https://quarto.org/docs/presentations/revealjs/'>very well-documented by Posit!</a>
+
+## What were/are the alternatives?
+
+<br>
+
+- `xaringan`: all functionality and more included in [Reveal.js]{.golden}
+<br>   
+- Google Slides: great, especially if you don't need inline code
+<br>   
+- Powerpoint: ???
+
+
+## [Quarto]{.blue} + [Reveal.js]{.golden} Basics
 
 ::: columns
+
 ::: {.column width="50%"}
-#### Code:
+#### [.qmd]{.blue} file:
 
 ::: quarto
 `````md
@@ -40,23 +96,162 @@ When you click the **Render** button a presentation will be generated that inclu
 ```
 `````
 :::
+
 :::
 
 ::: {.column width="50%"}
 #### Output:
-
 <iframe class="slide-deck" src="basics.html"></iframe>
 :::
+
 :::
+
+## Lots for us to do with [Quarto]{.blue} [Reveal.js]{.golden}
+
+::: columns
+
+::: {.column width="50%"}
+#### [.qmd]{.blue} file:
+
+::: quarto
+`````md
+---
+title: "Reveal.js Tricks"
+format: revealjs
+---
+
+## Columns are easy!
+
+::: columns
+
+::: {.column width="50%"}
+First column
+
+Amazing!
+:::
+
+::: {.column width="50%"}
+Second column
+
+Wow!
+:::
+
+:::
+
+## Columns are easy! 
+
+::: columns
+
+::: {.column width="33%"}
+First column
+
+Amazing!
+:::
+
+::: {.column width="34%"}
+Second column
+
+Wow!
+:::
+
+::: {.column width="33%"}
+Third column?!
+
+Astounding!
+:::
+
+:::
+
+::: aside
+
+::: {.fragment}
+Just need to specify `{column width="x%"}` for each column
+:::
+
+:::
+
+## Absolute positioning
+
+![](images/cat1.jpeg){.absolute top=200 left=0 width="350"}
+
+![](images/cat2.jpeg){.absolute top=50 right=50 width="300"}
+
+![](images/cat3.jpeg){.absolute bottom=0 right="30%" width="400"}
+
+::: {.absolute top=300 right=20}
+Put images and text wherever you want!
+:::
+
+
+## Vertical centering {.center}
+
+Is normally super hard but now simple!
+
+::: {style="text-align: center;"}
+## Horizontal centering
+
+Is a little trickier
+:::
+
+
+## {.center}
+
+we can have
+[big text]{.r-fit-text}
+as big as the screen can fit!
+
+## Other fun things
+
+<br>
+
+::: small
+<a href='https://quarto.org/docs/presentations/revealjs/advanced.html'>🔗</a> Advanced Quarto Reveal.js:
+
+- Slide transitions
+- Animations
+- Fragments (incrementally reveal/highlight elements, including code)
+- Plugins
+- Much more!
+:::
+`````
+:::
+
+:::
+
+::: {.column width="50%"}
+#### Output:
+<iframe class="slide-deck" src="tricks.html"></iframe>
+:::
+
+:::
+
+
+## Go make some slides!
+
+<br>
+- [Quarto]{.blue} + [Reveal.js]{.golden}: as easy or flexible as you want
+<br>  
+- Will help ease my transition from .Rmd to [.qmd]{.blue}
+<br>  
+- FUN (?)
+
 
 ## Further reading
 
 ::: small
 <a href='https://quarto.org/docs/presentations/'>🔗</a> Quarto - Presentations
 
-<a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>🔗</a> Emil Hvitfeldt's 2023 NYR presentation
+<a href='https://github.com/EmilHvitfeldt/talk-nyr-slidecraft'>🔗</a> Emil Hvitfeldt's 2023 NYR presentation (credit for most of this presentation to Emil!)
 
 <a href='https://emitanaka.org/blog/2022-07-11-transitioning-from-xaringan-to-quarto-revealjs/transitioning-from-xaringan-to-quarto-revealjs.html'>🔗</a> Emi Tanaka's <em>Transitioning from xaringan to Quarto Reveal.js</em>
 
 <a href='https://meghan.rbind.io/blog/quarto-slides/'>🔗</a> Meghan Hall's <em>Making Slides in Quarto with Reveal.js</em>
+:::
+
+##
+
+[thanks]{.r-fit-text}
+
+::: {style="text-align: center;"}
+questions? (I'm still learning!)
 :::
