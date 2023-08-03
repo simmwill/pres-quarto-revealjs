@@ -229,9 +229,12 @@ as big as the screen can fit!
 ## Go make some slides!
 
 <br>
+
 - [Quarto]{.blue} + [Reveal.js]{.golden}: as easy or flexible as you want
 <br>  
 - Will help ease my transition from .Rmd to [.qmd]{.blue}
+<br>  
+- Easy to deploy online (e.g., GitHub pages)
 <br>  
 - FUN (?)
 

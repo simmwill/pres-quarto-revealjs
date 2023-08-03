@@ -46,7 +46,7 @@
     "href": "index.html#go-make-some-slides",
     "title": "",
     "section": "Go make some slides!",
-    "text": "Go make some slides!\n - Quarto + Reveal.js: as easy or flexible as you want \n- Will help ease my transition from .Rmd to .qmd \n- FUN (?)"
+    "text": "Go make some slides!\n\n\nQuarto + Reveal.js: as easy or flexible as you want \n\nWill help ease my transition from .Rmd to .qmd \n\nEasy to deploy online (e.g., GitHub pages) \n\nFUN (?)"
   },
   {
     "objectID": "index.html#further-reading",
