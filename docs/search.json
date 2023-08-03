@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html#creating-slides-with-quarto-and-reveal.js",
+    "href": "index.html#creating-slides-with-quarto-and-reveal.js",
+    "title": "",
+    "section": "Creating slides with Quarto and Reveal.js",
+    "text": "Creating slides with Quarto and Reveal.js\nAdapted from Emil Hvitfeldt’s 2023 NYR presentation\n\n\n    Will Simmons\n4 August 2023\nWCM Biostatistics Computing Club"
+  },
+  {
+    "objectID": "index.html#what-is-quarto",
+    "href": "index.html#what-is-quarto",
+    "title": "",
+    "section": "What is Quarto?",
+    "text": "What is Quarto?\n\n\nMulti-language, next generation version of R Markdown from Posit (i.e., RStudio)\n\nR Markdown isn’t going away (see this post)\n\nHowever, all new features will be implemented in Quarto\n\nRender .Rmd as .qmd without any changes - try it!"
+  },
+  {
+    "objectID": "index.html#what-is-reveal.js",
+    "href": "index.html#what-is-reveal.js",
+    "title": "",
+    "section": "What is Reveal.js?",
+    "text": "What is Reveal.js?\n\n\nOpen source HTML presentation framework \n\nVery flexible - anything you can do with a webpage \n\nLucky for us, included in Quarto as the preferred presentation format \n\nAlready very well-documented by Posit!"
+  },
+  {
+    "objectID": "index.html#what-wereare-the-alternatives",
+    "href": "index.html#what-wereare-the-alternatives",
+    "title": "",
+    "section": "What were/are the alternatives?",
+    "text": "What were/are the alternatives?\n\n\nxaringan: all functionality and more included in Reveal.js \n\nGoogle Slides: great, especially if you don’t need inline code \n\nPowerpoint: ???"
+  },
+  {
+    "objectID": "index.html#quarto-reveal.js-basics",
+    "href": "index.html#quarto-reveal.js-basics",
+    "title": "",
+    "section": "Quarto + Reveal.js Basics",
+    "text": "Quarto + Reveal.js Basics\n\n\n.qmd file:\n\n---\ntitle: \"Basic Revealjs\"\nformat: revealjs\neditor: visual\n---\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished presentation.\n\n## Bullets\n\nWhen you click the **Render** button a document will be generated that includes:\n\n-   Content authored with markdown\n-   Output from executable code\n\n## Code\n\nWhen you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n```{r}\n1 + 1\n```\n\n\nOutput:"
+  },
+  {
+    "objectID": "index.html#lots-for-us-to-do-with-quarto-reveal.js",
+    "href": "index.html#lots-for-us-to-do-with-quarto-reveal.js",
+    "title": "",
+    "section": "Lots for us to do with Quarto Reveal.js",
+    "text": "Lots for us to do with Quarto Reveal.js\n\n\n.qmd file:\n\n---\ntitle: \"Reveal.js Tricks\"\nformat: revealjs\n---\n\n## Columns are easy!\n\n::: columns\n\n::: {.column width=\"50%\"}\nFirst column\n\nAmazing!\n:::\n\n::: {.column width=\"50%\"}\nSecond column\n\nWow!\n:::\n\n:::\n\n## Columns are easy! \n\n::: columns\n\n::: {.column width=\"33%\"}\nFirst column\n\nAmazing!\n:::\n\n::: {.column width=\"34%\"}\nSecond column\n\nWow!\n:::\n\n::: {.column width=\"33%\"}\nThird column?!\n\nAstounding!\n:::\n\n:::\n\n::: aside\n\n::: {.fragment}\nJust need to specify `{column width=\"x%\"}` for each column\n:::\n\n:::\n\n## Absolute positioning\n\n![](images/cat1.jpeg){.absolute top=200 left=0 width=\"350\"}\n\n![](images/cat2.jpeg){.absolute top=50 right=50 width=\"300\"}\n\n![](images/cat3.jpeg){.absolute bottom=0 right=\"30%\" width=\"400\"}\n\n::: {.absolute top=300 right=20}\nPut images and text wherever you want!\n:::\n\n\n## Vertical centering {.center}\n\nIs normally super hard but now simple!\n\n::: {style=\"text-align: center;\"}\n## Horizontal centering\n\nIs a little trickier\n:::\n\n\n## {.center}\n\nwe can have\n[big text]{.r-fit-text}\nas big as the screen can fit!\n\n## Other fun things\n\n&lt;br&gt;\n\n::: small\n&lt;a href='https://quarto.org/docs/presentations/revealjs/advanced.html'&gt;🔗&lt;/a&gt; Advanced Quarto Reveal.js:\n\n- Slide transitions\n- Animations\n- Fragments (incrementally reveal/highlight elements, including code)\n- Plugins\n- Much more!\n:::\n\n\nOutput:"
+  },
+  {
+    "objectID": "index.html#go-make-some-slides",
+    "href": "index.html#go-make-some-slides",
+    "title": "",
+    "section": "Go make some slides!",
+    "text": "Go make some slides!\n - Quarto + Reveal.js: as easy or flexible as you want \n- Will help ease my transition from .Rmd to .qmd \n- FUN (?)"
+  },
+  {
+    "objectID": "index.html#further-reading",
+    "href": "index.html#further-reading",
+    "title": "",
+    "section": "Further reading",
+    "text": "Further reading\n\n🔗 Quarto - Presentations\n🔗 Emil Hvitfeldt’s 2023 NYR presentation (credit for most of this presentation to Emil!)\n🔗 Emi Tanaka’s Transitioning from xaringan to Quarto Reveal.js\n🔗 Meghan Hall’s Making Slides in Quarto with Reveal.js"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "",
+    "section": "",
+    "text": "thanks\n\nquestions? (I’m still learning!)"
+  }
+]
