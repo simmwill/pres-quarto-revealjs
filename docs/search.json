@@ -61,5 +61,75 @@
     "title": "",
     "section": "",
     "text": "thanks\n\nquestions? (I’m still learning!)"
+  },
+  {
+    "objectID": "basics.html#quarto",
+    "href": "basics.html#quarto",
+    "title": "Basic Reveal.js",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
+  },
+  {
+    "objectID": "basics.html#bullets",
+    "href": "basics.html#bullets",
+    "title": "Basic Reveal.js",
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
+  },
+  {
+    "objectID": "basics.html#code",
+    "href": "basics.html#code",
+    "title": "Basic Reveal.js",
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
+  },
+  {
+    "objectID": "tricks.html#columns-are-easy",
+    "href": "tricks.html#columns-are-easy",
+    "title": "Reveal.js Tricks",
+    "section": "Columns are easy!",
+    "text": "Columns are easy!\n\n\nFirst column\nAmazing!\n\nSecond column\nWow!"
+  },
+  {
+    "objectID": "tricks.html#columns-are-easy-1",
+    "href": "tricks.html#columns-are-easy-1",
+    "title": "Reveal.js Tricks",
+    "section": "Columns are easy!",
+    "text": "Columns are easy!\n\n\nFirst column\nAmazing!\n\nSecond column\nWow!\n\nThird column?!\nAstounding!\n\n\n\n\n\nJust need to specify {column width=\"x%\"} for each column"
+  },
+  {
+    "objectID": "tricks.html#absolute-positioning",
+    "href": "tricks.html#absolute-positioning",
+    "title": "Reveal.js Tricks",
+    "section": "Absolute positioning",
+    "text": "Absolute positioning\n\n\n\n\nPut images and text wherever you want!"
+  },
+  {
+    "objectID": "tricks.html#vertical-centering",
+    "href": "tricks.html#vertical-centering",
+    "title": "Reveal.js Tricks",
+    "section": "Vertical centering",
+    "text": "Vertical centering\nIs normally super hard but now simple!"
+  },
+  {
+    "objectID": "tricks.html#horizontal-centering",
+    "href": "tricks.html#horizontal-centering",
+    "title": "Reveal.js Tricks",
+    "section": "Horizontal centering",
+    "text": "Horizontal centering\nIs a little trickier"
+  },
+  {
+    "objectID": "tricks.html#section",
+    "href": "tricks.html#section",
+    "title": "Reveal.js Tricks",
+    "section": "",
+    "text": "we can have big text as big as the screen can fit!"
+  },
+  {
+    "objectID": "tricks.html#other-fun-things",
+    "href": "tricks.html#other-fun-things",
+    "title": "Reveal.js Tricks",
+    "section": "Other fun things",
+    "text": "Other fun things\n\n\n🔗 Advanced Quarto Reveal.js:\n\nSlide transitions\nAnimations\nFragments (incrementally reveal/highlight elements, including code)\nPlugins\nMuch more!"
   }
 ]
