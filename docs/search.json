@@ -131,5 +131,12 @@
     "title": "Reveal.js Tricks",
     "section": "Other fun things",
     "text": "Other fun things\n\n\n🔗 Advanced Quarto Reveal.js:\n\nSlide transitions\nAnimations\nFragments (incrementally reveal/highlight elements, including code)\nPlugins\nMuch more!"
+  },
+  {
+    "objectID": "tricks.html#columns-are-easy-test",
+    "href": "tricks.html#columns-are-easy-test",
+    "title": "Reveal.js Tricks",
+    "section": "Columns are easy! test",
+    "text": "Columns are easy! test\n\n\nFirst column\nAmazing!\n\nSecond column\nWow!"
   }
 ]

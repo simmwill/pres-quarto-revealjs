@@ -10,7 +10,7 @@ format: revealjs
 ::: {.column width="50%"}
 First column
 
-Amazing!
+Amazing! 
 :::
 
 ::: {.column width="50%"}
